@@ -1,4 +1,4 @@
-// Bienvenido a mi script. A continuación crearé paso a paso un programa en JS y con PF, para que un usuario pueda crear una encuesta con distintas preguntas
+// Bienvenido a mi script. A continuación crearé paso a paso un programa en JS y con Programación funcional, para que un usuario pueda crear una encuesta con distintas preguntas
 // A su vez, las respuestas podran ser seleccionas y votadas, para que se muestre un resultado de las escogidas de manera actualizada. 
 // Fase 1. Crear funciones para iniciar el programa.
 // Aqui se creará una variable para tener una nueva opción de respuesta
