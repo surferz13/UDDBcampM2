@@ -82,7 +82,7 @@ class Encuesta {
         }
     }
 
-    // Para mostrar los resultados de la encuesta
+    // Fase 3. Para mostrar los resultados de la encuesta
     mostrarResultados() {
         console.log(`Resultados de la encuesta: ${this.titulo}`);
         for (let pregunta of this.preguntas) {
