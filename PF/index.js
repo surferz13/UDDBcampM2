@@ -1,6 +1,6 @@
 // Bienvenido a mi script. A continuación crearé paso a paso un programa en JS y con Programación funcional, para que un usuario pueda crear una encuesta con distintas preguntas
 // A su vez, las respuestas podran ser seleccionas y votadas, para que se muestre un resultado de las escogidas de manera actualizada. 
-// Fase 1. Crear funciones para iniciar el programa.
+// Fase 1. Crearé funciones para iniciar el programa.
 // Aqui se creará una variable para tener una nueva opción de respuesta
 const crearRespuesta = (texto) => ({
     texto,
@@ -116,5 +116,5 @@ mostrarRespuestasDePregunta(miEncuesta.preguntas[0]);
 miEncuesta = votarEnEncuesta(miEncuesta, 0, 0); // Votar por la primera opción de la primera pregunta
 miEncuesta = votarEnEncuesta(miEncuesta, 0, 1); // Votar por la segunda opción de la primera pregunta
 
-// Mostrar los resultados
+// Con esto se mostrará los resultados
 mostrarResultadosDeEncuesta(miEncuesta);
